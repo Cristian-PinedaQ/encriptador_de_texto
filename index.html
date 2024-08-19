@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" rel="inicio">
+             <img src="./src/Logo_alura.png" alt="Logo Alura" class="logo">
+        </a>
+    </header>
+
+    <main id="inicio" href = " # ">
+        <section class="container__title">
+            <div class="title"><h1> Encriptador de texto </h1></div>
+        </section>
+        
+        <section class="container__encriptador">
+          <textarea class="input__encriptar" placeholder="Ingrese el texto aqui"></textarea>  
+          <div class="container__encriptador__aviso">
+                <img src="./src/exclamacion.svg" alt="exclamacion alerta" >
+                  <p class="container__text__alert">solo letras minusculas y sin acentos</p>
+             </div>
+             <div class="container__encriptador__btn">
+                <button type="submit" class="btn__encriptar">Encriptar!</button>
+                <button type="submit" class="btn__desencriptar">Desencriptar!</button>
+             </div>
+        </section>
+        <section class="container__answer">
+            <div class="container__answer_card">
+                <img src="./src/Muñeco.png" alt="Img__card" class="img__card">
+                <p class="text__aviso__negrilla">Ningun mensaje fue encontrado</p>
+                <p class="text__aviso__normal">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+                <textarea type="mensaje" class="text__encriptar" readonly></textarea>
+                <button type="submit" class="btn__copy">Copiar</button>
+            
+        </section>
+    </main>
+
+     <!--Pie de Pagina-->
+     <footer>
+        <p class="author">Create by Cristian Pineda</p>
+        <p class="copyright">&copy; copyright 2024</p>
+     </footer>
+
+     <script src="./logica__js/index.js"></script>
+    
+</body>
+</html>
