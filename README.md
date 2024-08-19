@@ -1,4 +1,4 @@
-# encriptador_de_texto
+# Encriptador de texto -- ONE
 
 Hola que tal bienvenidos, en esta pequeña aplicacion presento un proyecto de encriptacion de texto.
 
