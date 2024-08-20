@@ -17,15 +17,15 @@ Hola que tal bienvenidos, en esta pequeña aplicacion presento un proyecto de en
 
 ## Screenshots
 
-###View Desktop
+### View Desktop
 ![View Desktop](https://github.com/Cristian-PinedaQ/encriptador_de_texto/blob/main/desktop.png)
 
 
-###View tablet
+### View tablet
 ![View tablet](https://github.com/Cristian-PinedaQ/encriptador_de_texto/blob/main/tablet.png)
 
 
-###View mobile
+### View mobile
 ![View mobile](https://github.com/Cristian-PinedaQ/encriptador_de_texto/blob/main/mobile.png)
 
 
